@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #ffbb00;
+    --dark-blue: #183153;
+    --dark-blue-2: #252337;
+    --dark-blue-3: #3f3d56;
+  
+    /* General */
+    --btn-color: #f05123;
+    --invalid-color: #f33a58;
+    --plum-color: #b80257;
+    
+    --border-color: #E5E5E5;
+    --border-color-2: #bbb8b8;
+    --border-color-3: #929191;
+  }
+  
+  * {
+    box-sizing: inherit;
+    
+  }
+  
+  html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  .btn {
+    height: 46px;
+    width: 184px;
+    outline: none;
+    background-color: var(--primary-color) ;
+    color: rgb(41, 42, 46);
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: rgba(0 ,0 ,0 , 0.2) 0px -2px 0px inset;
+  }
+  .btn-close {
+    font-size: 32px;
+    font-weight: 900;
+    color : rgb(0, 165, 122);
+    cursor: pointer;
+  }
+  

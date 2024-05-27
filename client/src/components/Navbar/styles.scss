@@ -1,0 +1,27 @@
+.navbar-container{
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: flex-end;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
+}
+.navbar-container > *{
+    margin: 0 1.25rem;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(0, 99, 230);
+}
+.navbar-link{
+    color:rgb(163, 162, 162);
+}
+
+.active{
+    color:rgb(255, 255, 255);
+    background-color: var(--dark-blue);
+    padding:0.35rem;
+    border-radius: 6px;
+}
+.navbar-user{
+    color: #00C5F9;
+}
